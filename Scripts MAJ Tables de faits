@@ -1,0 +1,903 @@
+/*** TABLE DE FAIT : fait_exam_bac_a1 */
+
+ALTER TABLE fait_exam_bac_a2 ADD `coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+
+/*** TABLE DE FAIT : fait_exam_bac_a2 */
+
+ALTER TABLE fait_exam_bac_a2 ADD `coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_lv2Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `coef_lv2Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_lv2Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_a2 ADD `barem_lv2Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+
+/*** TABLE DE FAIT : fait_exam_bac_b */
+
+ALTER TABLE fait_exam_bac_b ADD `coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_lv2Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `coef_sess` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_lv2Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_b ADD `barem_sess` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+
+/*** TABLE DE FAIT : fait_exam_bac_c */
+
+ALTER TABLE fait_exam_bac_c ADD `coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_scephy` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_scenat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_scephy` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_c ADD `barem_scenat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+
+
+/*** TABLE DE FAIT : fait_exam_bac_d */
+
+ALTER TABLE fait_exam_bac_d ADD `coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_scephy` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_scenat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_lv1Oral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_scephy` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_bac_d ADD `barem_scenat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+
+-------------------------------------------
+----- Tables n'existant pas dans le datawarehouse (v1)
+-------------------------------------------
+
+/** Tables de fait : fait_exam_bac_e ***/
+
+CREATE TABLE `fait_exam_bac_e` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_tprat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_pc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_angOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_tprat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_pc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_angOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`math` FLOAT NULL DEFAULT NULL,
+	`meca` FLOAT NULL DEFAULT NULL,
+	`t_prat` FLOAT NULL DEFAULT NULL,
+	`pc` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang_Oral` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_e_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_e_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_e_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_e_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_e_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_e_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+
+/** Table de fait : fait_exam_bac_f1 ***/
+CREATE TABLE `fait_exam_bac_f1` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ep` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_pa` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_epf` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ef` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_tat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ep` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_pa` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_epf` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ef` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_tat` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`math` FLOAT NULL DEFAULT NULL,
+	`ep` FLOAT NULL DEFAULT NULL,
+	`pa` FLOAT NULL DEFAULT NULL,
+	`meca` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`epf` FLOAT NULL DEFAULT NULL,
+	`eo` FLOAT NULL DEFAULT NULL,
+	`ef` FLOAT NULL DEFAULT NULL,
+	`tat` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_f1_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_f1_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_f1_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_f1_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_f1_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_f1_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait : fait_exam_bac_f2 ***/
+
+CREATE TABLE `fait_exam_bac_f2` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_etudes_st` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_physapp` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_const_elect` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_mesures` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_etudes_st` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_physapp` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_const_elect` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_mesures` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`math` FLOAT NULL DEFAULT NULL,
+	`etudes_st` FLOAT NULL DEFAULT NULL,
+	`physapp` FLOAT NULL DEFAULT NULL,
+	`const_elect` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`mesures` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_f2_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_f2_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_f2_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_f2_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_f2_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_f2_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait : fait_exam_bac_f3 ***/
+
+CREATE TABLE `fait_exam_bac_f3` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_const` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_techno` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_physapp` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_m_oeuvre` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_mes_essai` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_et_equip` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_schema` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_const` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_techno` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_physapp` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_m_oeuvre` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_mes_essai` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_et_equip` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_schema` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`math` FLOAT NULL DEFAULT NULL,
+	`const` FLOAT NULL DEFAULT NULL,
+	`techno` FLOAT NULL DEFAULT NULL,
+	`physapp` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`meca` FLOAT NULL DEFAULT NULL,
+	`m_oeuvre` FLOAT NULL DEFAULT NULL,
+	`mes_essai` FLOAT NULL DEFAULT NULL,
+	`et_equip` FLOAT NULL DEFAULT NULL,
+	`schema` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_f3_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_f3_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_f3_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_f3_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_f3_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_f3_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+
+/*** Table de fait : fait_exam_f4 **/
+
+CREATE TABLE `fait_exam_bac_f4` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_dess` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_pc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_legis` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_methodes` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_tevhnol` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_topo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_dess` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_meca` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_pc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_legis` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_methodes` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_tevhnol` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_topo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`math` FLOAT NULL DEFAULT NULL,
+	`dess` FLOAT NULL DEFAULT NULL,
+	`meca` FLOAT NULL DEFAULT NULL,
+	`pc` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`legis` FLOAT NULL DEFAULT NULL,
+	`methodes` FLOAT NULL DEFAULT NULL,
+	`tevhnol` FLOAT NULL DEFAULT NULL,
+	`topo` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_f4_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_f4_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_f4_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_f4_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_f4_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_f4_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait: fait_exam_bac_f7 **/
+
+CREATE TABLE `fait_exam_bac_f7` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_math_phy` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_bioch` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_tbl` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_microbio` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_physiologie` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_tpbioch` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_tpmicrobio` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`barem_math_phy` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_bioch` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_tbl` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_microbio` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_physiologie` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_tpbioch` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_tpmicrobio` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`math_phy` FLOAT NULL DEFAULT NULL,
+	`bioch` FLOAT NULL DEFAULT NULL,
+	`tbl` FLOAT NULL DEFAULT NULL,
+	`microbio` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`physiologie` FLOAT NULL DEFAULT NULL,
+	`tpbioch` FLOAT NULL DEFAULT NULL,
+	`tpmicrobio` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_f7_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_f7_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_f7_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_f7_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_f7_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_f7_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait : fait_exam_bac_g1 ***/
+
+CREATE TABLE `fait_exam_bac_g1` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_economie` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_etCas` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_tp` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ocDossier` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ocEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_cmc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_economie` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_etCas` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_tp` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ocDossier` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ocEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_cmc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`economie` FLOAT NULL DEFAULT NULL,
+	`etCas` FLOAT NULL DEFAULT NULL,
+	`tp` FLOAT NULL DEFAULT NULL,
+	`ocDossier` FLOAT NULL DEFAULT NULL,
+	`ocEcrit` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang` FLOAT NULL DEFAULT NULL,
+	`cmc` FLOAT NULL DEFAULT NULL,
+	`math` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_g1_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_g1_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_g1_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_g1_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_g1_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_g1_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait : fait_exam_bac_g2 **/
+
+CREATE TABLE `fait_exam_bac_g2` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_economie` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_etCas` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_dossierTpi` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_cmc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_economie` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_etCas` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_dossierTpi` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_ang` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_cmc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`math` FLOAT NULL DEFAULT NULL,
+	`economie` FLOAT NULL DEFAULT NULL,
+	`etCas` FLOAT NULL DEFAULT NULL,
+	`dossierTpi` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`ang` FLOAT NULL DEFAULT NULL,
+	`cmc` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_g2_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_g2_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_g2_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_g2_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_g2_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_g2_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait : fait_exam_bac_h1 **/
+
+CREATE TABLE `fait_exam_bac_h1` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_techArt` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_histArt` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_dessin` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_espaceVol` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_peinture` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_lv1ECrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`barem_techArt` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_histArt` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_dessin` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_espaceVol` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_peinture` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_lv1ECrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`techArt` FLOAT NULL DEFAULT NULL,
+	`histArt` FLOAT NULL DEFAULT NULL,
+	`dessin` FLOAT NULL DEFAULT NULL,
+	`espaceVol` FLOAT NULL DEFAULT NULL,
+	`peinture` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`lv1Ecrit` FLOAT NULL DEFAULT NULL,
+	`histGeo` FLOAT NULL DEFAULT NULL,
+	`math` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_h1_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_h1_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_h1_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_h1_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_h1_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_h1_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait : fait_exam_bac_h2 **/
+
+CREATE TABLE `fait_exam_bac_h2` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_solfEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_solfOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_analyse` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_musico` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_instiAfri` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_instiOcci` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_techVoc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`barem_solfEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_solfOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_analyse` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_musico` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_instiAfri` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_instiOcci` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_techVoc` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact2` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`solfEcrit` FLOAT NULL DEFAULT NULL,
+	`solfOral` FLOAT NULL DEFAULT NULL,
+	`analyse` FLOAT NULL DEFAULT NULL,
+	`musico` FLOAT NULL DEFAULT NULL,
+	`instiAfri` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`instiOcci` FLOAT NULL DEFAULT NULL,
+	`techVoc` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`lv1Ecrit` FLOAT NULL DEFAULT NULL,
+	`histGeo` FLOAT NULL DEFAULT NULL,
+	`math` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	`fact2` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_h2_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_h2_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_h2_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_h2_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_h2_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_h2_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+/*** Table de fait : fait_exam_bac_h3 ***/
+
+CREATE TABLE `fait_exam_bac_h3` (
+	`ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`coef_exprCorpo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_diction` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_interpret` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_littDrama` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_histTheatre` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`coef_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`barem_exprCorpo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_diction` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_interpret` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_littDrama` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_histTheatre` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frEcrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_frOral` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_lv1Ecrit` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_histGeo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_philo` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_eps` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	`barem_fact1` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci',
+	
+	`exprCorpo` FLOAT NULL DEFAULT NULL,
+	`diction` FLOAT NULL DEFAULT NULL,
+	`interpret` FLOAT NULL DEFAULT NULL,
+	`littDrama` FLOAT NULL DEFAULT NULL,
+	`histTheatre` FLOAT NULL DEFAULT NULL,
+	`frEcrit` FLOAT NULL DEFAULT NULL,
+	`frOral` FLOAT NULL DEFAULT NULL,
+	`lv1Ecrit` FLOAT NULL DEFAULT NULL,
+	`histGeo` FLOAT NULL DEFAULT NULL,
+	`philo` FLOAT NULL DEFAULT NULL,
+	`math` FLOAT NULL DEFAULT NULL,
+	`eps` FLOAT NULL DEFAULT NULL,
+	`fact1` FLOAT NULL DEFAULT NULL,
+	
+	`id_etablissement` INT(11) NULL DEFAULT NULL,
+	`id_type_resultat` INT(11) NULL DEFAULT NULL,
+	`id_dren` INT(11) NULL DEFAULT NULL,
+	`id_statut` INT(11) NULL DEFAULT NULL,
+	`id_annee` INT(11) NULL DEFAULT NULL,
+	`id_sexe` INT(11) NULL DEFAULT NULL,
+	PRIMARY KEY (`ID`),
+	INDEX `id_dren` (`id_dren`),
+	INDEX `id_etablissement` (`id_etablissement`),
+	INDEX `id_statut` (`id_statut`),
+	INDEX `id_annee` (`id_annee`),
+	INDEX `id_sexe` (`id_sexe`),
+	INDEX `id_type_resultat` (`id_type_resultat`),
+	CONSTRAINT `fait_exam_bac_h3_ibfk_1` FOREIGN KEY (`id_dren`) REFERENCES `dim_dren` (`ID`),
+	CONSTRAINT `fait_exam_bac_h3_ibfk_2` FOREIGN KEY (`id_etablissement`) REFERENCES `dim_etablissement` (`ID`),
+	CONSTRAINT `fait_exam_bac_h3_ibfk_3` FOREIGN KEY (`id_statut`) REFERENCES `dim_statut` (`ID`),
+	CONSTRAINT `fait_exam_bac_h3_ibfk_4` FOREIGN KEY (`id_annee`) REFERENCES `dim_annee_scolaire` (`ID`),
+	CONSTRAINT `fait_exam_bac_h3_ibfk_5` FOREIGN KEY (`id_sexe`) REFERENCES `dim_sexe` (`ID`),
+	CONSTRAINT `fait_exam_bac_h3_ibfk_6` FOREIGN KEY (`id_type_resultat`) REFERENCES `dim_type_resultat` (`ID`)
+)
+COLLATE='utf8_unicode_ci';
+
+
+/*** Table de fait : fait_exam_cepe **/
+
+
+ALTER TABLE fait_exam_cepe ADD `coef_etudeMilieu` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_cepe ADD `coef_etudeEveil` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_cepe ADD `coef_dictee` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_cepe ADD `coef_maths` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_cepe ADD `barem_etudeMilieu` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_cepe ADD `barem_etudeEveil` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_cepe ADD `barem_dictee` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
+ALTER TABLE fait_exam_cepe ADD `barem_math` CHAR(50) NULL DEFAULT NULL COLLATE 'utf8_unicode_ci';
