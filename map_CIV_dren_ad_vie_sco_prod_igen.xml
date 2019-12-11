@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<MAP>
+  <MAP_PROVIDER 
+    class_name="it.eng.spagobi.engines.geo.map.provider.SOMapProvider" 
+    map_name="MAP_DREN_AD_SCO" />
+  <DATAMART_PROVIDER class_name="it.eng.spagobi.engines.geo.datamart.provider.DataMartProvider"
+  hierarchy="custom"
+  level="drens">
+		<METADATA>
+			<COLUMN type="geoid"   column_id="dren_id" hierarchy="custom" level="drens"/>      
+			<COLUMN type="measure" column_id="total_gestion_admin" agg_func="sum"/>
+			<COLUMN type="measure" column_id="total_env" agg_func="sum"/> 
+			<COLUMN type="measure" column_id="total_finance" agg_func="sum"/>
+			<COLUMN type="measure" column_id="total_gestion_ped" agg_func="sum"/>
+			<COLUMN type="measure" column_id="inspecte" agg_func="none"/>
+			<COLUMN type="measure" column_id="annee_ins_ad" agg_func="sum"/>
+		</METADATA>
+	<HIERARCHIES>
+     <!--HIERARCHY name="default" type="default" / -->
+      <HIERARCHY name="custom" type="custom">
+        <LEVEL name="drens" column_id="drens" column_desc="drens" feature_name="drens"/> 
+      </HIERARCHY>
+	</HIERARCHIES>
+	<CROSS_NAVIGATION>
+		<LINK hierarchy="custom" level="drens">
+			<PARAM type="absolute" name="DOCUMENT_LABEL" value="RAVS1" />
+			<PARAM type="relative" scope ="dataset" name="param_dren" value="drens" />
+			<PARAM type="relative" scope ="dataset" name="annee_ins_url" value="annee_ins_ad" />
+		</LINK>
+	</CROSS_NAVIGATION>
+   </DATAMART_PROVIDER>
+   <MAP_RENDERER class_name="it.eng.spagobi.engines.geo.map.renderer.InteractiveMapRenderer">
+		<MEASURES default_kpi="total_finance">
+			  <KPI column_id="total_gestion_admin" description="Gestion Administrative"  agg_func="sum" colour="#96C396" >
+				<TRESHOLDS type="static" lb_value="0" ub_value="36" >   
+					<PARAM name="range" value="0,7.2,14.4,21.6,28.8,30.6,36" />     
+				</TRESHOLDS>
+				<COLOURS type="static"  null_values_color="#ffff" >
+					<PARAM name="range" value="#5050FF,#00FF00,#C27440,#FFB060,#FF0000,#FF00FF" />
+				</COLOURS>
+			</KPI>
+			 <KPI column_id="total_env" description="Environnement" agg_func="sum" colour="#E19696" >
+				<TRESHOLDS type="static" lb_value="0" ub_value="18" >   
+					<PARAM name="range" value="0,3.6,14.4,10.8,14.4,15.3,18" />     
+				</TRESHOLDS>
+				<COLOURS type="static"  null_values_color="#1C1C1C" >
+					<PARAM name="range" value="#5050FF,#00FF00,#C27440,#FFB060,#FF0000,#FF00FF" />
+				</COLOURS>
+			</KPI>
+			
+			<KPI column_id="total_finance" description="Gestion Finance et Materielle"  agg_func="sum" colour="#96C396" >
+				<TRESHOLDS type="static" lb_value="0" ub_value="10" >   
+					<PARAM name="range" value="0,2,4,6,8,8.5,10" />     
+				</TRESHOLDS>
+				<COLOURS type="static"  null_values_color="#1C1C1C" >
+					<PARAM name="range" value="#5050FF,#00FF00,#C27440,#FFB060,#FF0000,#FF00FF" />
+				</COLOURS>
+			</KPI>
+			 <KPI column_id="total_gestion_ped" description="Gestion Pedagogique" agg_func="sum" colour="#E19696" >
+				<TRESHOLDS type="static" lb_value="0" ub_value="36" >   
+					<PARAM name="range" value="0,7.2,14.4,21.6,28.8,30.6,36" />     
+				</TRESHOLDS>
+				<COLOURS type="static"  null_values_color="#1C1C1C" >
+					<PARAM name="range" value="#5050FF,#00FF00,#C27440,#FFB060,#FF0000,#FF00FF" />
+				</COLOURS>
+			</KPI>
+			<KPI column_id="inspecte" description="DRENs inspect&#233;es" agg_func="none" colour="" >
+				<TRESHOLDS type="static" lb_value="0" ub_value="1" >   
+					<PARAM name="range" value="0,0.5,1" />     
+				</TRESHOLDS>
+				<COLOURS type="static"  null_values_color="#E19696" >
+					<PARAM name="range" value="#5050FF,#00FF00" />
+				</COLOURS>
+			</KPI>
+			<KPI column_id="annee_ins_ad" description="Annee(parametre)" agg_func="sum" colour="" >
+				<TRESHOLDS type="static" lb_value="0" ub_value="1" >   
+					<PARAM name="range" value=""/>     
+				</TRESHOLDS>
+				<COLOURS type="static"  null_values_color="" >
+					<PARAM name="range" value="" />
+				</COLOURS>
+			</KPI>
+		</MEASURES>
+		<LAYERS>
+			<LAYER name="drens" description="drens" selected="true" default_fill_color="#4682B4" />
+		</LAYERS>
+		<GUI_SETTINGS>  
+      <WINDOWS>
+      	<DEFAULTS>  
+         
+          <PARAM name="styles"><![CDATA[  
+                
+              {  
+                  winPlaceholderStyles: {"fill":"steelblue","stroke":"dimgray","stroke-width":1.5}  
+                  , windowStyles: {"fill":"#fffce6","stroke":"dimgray","stroke-width":1}  
+                  , titlebarStyles: {"fill":"#EA4716","stroke":"dimgray","stroke-width":1}  
+                  , titlebarHeight: 17  
+                  , statusbarStyles: {"fill":"#04B486","stroke":"dimgray","stroke-width":1}  
+                  , statusbarHeight: 13  
+                  , titletextStyles: {"font-family":"Arial,Helvetica","font-size":14,"fill":"white"}  
+                  , statustextStyles: {"font-family":"Arial,Helvetica","font-size":10,"fill":"dimgray"}  
+                  , buttonStyles: {"fill":"#04B486","stroke":"white","stroke-width":2}
+                  
+              }  
+                
+            ]]></PARAM>  
+        </DEFAULTS> 
+			<WINDOW name='navigation'>
+			    <PARAM name='visible'>false</PARAM>
+			    <PARAM name='title'>Carte</PARAM>
+				<PARAM name='x'>0</PARAM>
+				<PARAM name='y'>10</PARAM>
+				<PARAM name='closeButtonVisible'>false</PARAM>
+				<PARAM name='minimizeButtonVisible'>false</PARAM>
+				<PARAM name='maximizeButtonVisible'>false</PARAM>
+				<PARAM name='moovable'>false</PARAM>
+			</WINDOW>
+			<WINDOW name='measures'>
+				<PARAM name='title'>RUBRIQUES</PARAM>
+				<PARAM name='x'>0</PARAM>
+				<PARAM name='y'>10</PARAM>
+				<PARAM name='width'>230</PARAM>
+				<PARAM name='height'>230</PARAM>
+				<PARAM name='closeButtonVisible'>false</PARAM>
+				<PARAM name='minimizeButtonVisible'>false</PARAM>
+				<PARAM name='maximizeButtonVisible'>false</PARAM>
+				<PARAM name='moovable'>false</PARAM>
+			</WINDOW>
+			<WINDOW name='layers'>
+			    <PARAM name='visible'>false</PARAM>
+			    <PARAM name='x'>0</PARAM>
+				<PARAM name='y'>460</PARAM>
+				<PARAM name='closeButtonVisible'>false</PARAM>
+				<PARAM name='minimizeButtonVisible'>false</PARAM>
+				<PARAM name='maximizeButtonVisible'>false</PARAM>
+				<PARAM name='moovable'>false</PARAM>
+			</WINDOW>
+			<WINDOW name='detail'>
+			    <PARAM name='title'>Zones</PARAM>
+				<PARAM name='x'>850</PARAM>
+				<PARAM name='y'>0</PARAM>
+				<PARAM name='width'>250</PARAM>
+				<PARAM name='closeButtonVisible'>false</PARAM>
+				<PARAM name='minimizeButtonVisible'>false</PARAM>
+				<PARAM name='maximizeButtonVisible'>false</PARAM>
+				<PARAM name='showContent'>false</PARAM>
+				<PARAM name='minimized'>true</PARAM>
+				<PARAM name='moovable'>false</PARAM>
+				<PARAM name="styles"><![CDATA[  
+                
+              {  
+                  winPlaceholderStyles: {"fill":"steelblue","stroke":"dimgray","stroke-width":1.5}  
+                  , windowStyles: {"fill":"#fffce6","stroke":"dimgray","stroke-width":1}  
+                  , titlebarStyles: {"fill":"#04B486","stroke":"dimgray","stroke-width":1}  
+                  , titlebarHeight: 17  
+                  , statusbarStyles: {"fill":"#04B486","stroke":"dimgray","stroke-width":1}  
+                  , statusbarHeight: 13  
+                  , titletextStyles: {"font-family":"Arial,Helvetica","font-size":14,"fill":"white"}  
+                  , statustextStyles: {"font-family":"Arial,Helvetica","font-size":10,"fill":"dimgray"}  
+                  , buttonStyles: {"fill":"#04B486","stroke":"white","stroke-width":2}
+                  
+              }  
+                
+            ]]></PARAM>  
+				
+			</WINDOW>
+			<WINDOW name='legend'>
+			    <PARAM name='title'>L&#233;gende</PARAM>
+			    <PARAM name='x'>850</PARAM>
+				<PARAM name='y'>20</PARAM>
+				<PARAM name='width'>250</PARAM>
+				<PARAM name='closeButtonVisible'>false</PARAM>
+				<PARAM name='minimizeButtonVisible'>false</PARAM>
+				<PARAM name='maximizeButtonVisible'>false</PARAM>
+				<PARAM name='moovable'>false</PARAM>
+			</WINDOW>
+	  </WINDOWS>
+        	  
+          
+      <PARAM name='defaultDrillNav'>true</PARAM>    
+          
+      <PARAM name='highlightOnMouseOver' >true</PARAM>    
+      <PARAM name='normalizeChartValues'>true</PARAM>    
+      <PARAM name='chartScale'>1.0</PARAM>    
+      <PARAM name='chartWidth'>100</PARAM>    
+      <PARAM name='chartHeight'>100</PARAM>    
+      <PARAM name='valueFont'>20px</PARAM>    
+      <PARAM name='valueScale'>1.0</PARAM>    
+          
+    </GUI_SETTINGS>
+   </MAP_RENDERER>
+</MAP>
